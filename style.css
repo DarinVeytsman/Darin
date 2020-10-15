@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+a{
+ text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* ============= header =================== */
+.nav{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+.nav__list__link{
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    
+    font-size: 12px;
+    color: #191919;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+}
+.nav__list__link:hover{
+    color:#1f8b48 ;
+    text-decoration: none;
+}
+.header__content{
+    display:flex;
+    align-items: center;
+}
+.header{
+    background: url("img/header.bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+background-attachment: fixed;
+}
+.header__title{
+    font-size:35px ;
+    color: #1d1d1d;
+    font-family: 'Montserrat-Medium';
+    line-height: 28px;
+    
+    
+    
+}
+.header__text{
+    color: #787878;
+    font-size: 16px;
+    font-family: 'Montserrat-Thin';
+    line-height: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+.header__contact{
+    color: white;
+    font-size:12px ;
+    font-family: 'Montserrat-Medium';
+    padding: 23px 57px 23px 45px;
+    background: #007d2f;
+    text-align: center;
+    margin-top: 56px;
+    text-transform: uppercase;
+}
+.header__contact:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* ============== /header ============== */
+/* ================= main ================= */
+
+.main{
+padding-top: 95px;
+}
+.main__comment_title{
+    font-size: 35px;
+    font-family: 'Montserrat-Medium';
+    color: #191919;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.main__comment_text{
+    font-size: 14px;
+    color: #787878;
+    font-family: 'Nunito-Regular';
+    text-align: justify;
+    line-height: 21px;
+}
+.img__comment{
+    padding-bottom: 40px;
+}
+.progress{
+    
+    display: flex;
+    height: 2px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-bottom: 40px;
+    width: 500px;
+    
+}
+
+.main_pc_img{
+    width: 51vw;
+    height: 571px;
+}
+.main_resultate{
+    padding-top: 40px;
+}
+.skill_title{
+    font-size: 30px;
+    color: #171717;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 37px;
+
+}
+.title_result{
+    font-size:12px ;
+    color: #000000;
+    font-family: 'Montserrat-Medium';
+    max-width: max-content;
+
+
+}
+
+
+.main_resultate{
+    background: #f8f9f9;
+}
+
+.bag_title{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    max-width: max-content;
+    font-family: 'Montserrat-Medium';
+    
+}
+.main__jobs_time{
+    background: #007d2f;
+}
+.fal{
+    height: 35px;
+    width: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+      font-size: 48px;
+
+}
+.bag_main {
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.bag_text{
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    color: white;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+}
+.card_description__add{
+    font-size: 48px;
+    color: white;
+    font-family: 'Montserrat-Medium';
+    position: absolute;
+      width: 466px;
+      height: 300px;
+      left: 0;
+      top: -100%;
+      background: rgba(99,104,107,.10);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 2s;
+}
+.card_description{
+position: relative;
+overflow: hidden;
+width: 25%;
+}
+.card_description:hover .card_description__add{
+    top: 0;
+    color: white;
+    text-decoration: none;
+}
+
+
+.card_row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img_size{
+    width: 100%;
+    height: 300px;
+}
+.instruction_title{
+    margin-top: 45px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+
+
+}
+    .main_instruction{
+        background: #007d2f;
+    }
+    .main_video_title{
+        font-size:29px ;
+        color: #191919;
+        font-family: 'Montserrat-Medium';
+        padding-top: 100px;
+           text-align: center;
+    }
+    .main_video_text{
+        font-size: 16px;
+        color: #787878;
+        font-family: 'Nunito-Regular';
+        text-align: center;
+        margin-bottom: 46px;
+        
+    }
+    .video__description{
+        padding-bottom: 100px;
+    }
+   .gem_title{
+    font-family: 'Montserrat-Medium';
+    color: #191919;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    
+   }
+   .gem__text{
+    color: #787878;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nunito-Regular';
+    margin-bottom: 50px;
+   }
+   .gem_size{
+      font-size: 47px;
+      color: #656565;
+      text-align: center;
+      width: 240px;
+      margin-bottom: 25px;
+   }
+   .main_game__bonus{
+       background: #f5f5f5;
+       padding-top: 100px;
+       padding-bottom: 50px;
+   }
+   .text__carusel{
+       font-size: 16px;
+       font-family: 'Montserrat-Medium';
+       color: white;
+       line-height: 30px;
+       text-align: center;
+       margin-bottom: 90px;
+       margin-top: 150px;
+       
+
+   }
+   .main__carusel{
+       background: #007d2f;
+       padding-bottom: 60px;
+   }
+  .carusel_title{
+      color: white;
+      font-size: 16px;
+      font-family: 'Montserrat-Medium';
+      text-transform: uppercase;
+      text-align: center;
+      width: 645px;
+      margin-bottom: 170px;
+
+  }
+ .carousel-control-prev-icon{
+     background: none;
+ }
+ .carousel-control-next-icon{
+     background: none;
+ }
+  .carousel-indicators .active {
+    border-radius: 50%;
+    opacity: 1;
+    width: 14px;
+    height: 13px;
+}
+.carousel-indicators li {
+   
+    width: 14px;
+    height: 13px;
+    border-radius: 50%;
+    ;
+}
+.main_mointains{
+       padding-bottom: 60px;
+    padding-top: 65px;
+}
+.reg__title{
+    font-size: 30px;
+    color:#1d1d1d ;
+    font-family: 'Montserrat-Medium';
+    line-height: 22px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
+.reg__text{
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito-Regular';
+    text-align: center;
+    line-height: 21px;
+    margin-bottom: 40px;
+}
+.main_registr{
+    background: #f5f5f5;
+}
+.regist_post{
+    display: block;
+}
+.form-control{
+    width: 350px;
+    margin-left: 30px;
+    border: none;
+}
+.registration{
+    background: #f5f5f5;
+}
+   .control_info{
+       width: 730px;
+       margin-top: 30px;
+       border: none;
+   }
+   .control_info_2{
+       width: 730px;
+       height: 170px;
+       margin-top: 30px;
+       border: none;
+       
+   }
+   .contact_reg{
+       font-size: 12px;
+       text-transform: uppercase;
+       font-family: 'Montserrat-Medium';
+       color: white;
+       background: #1f8b48;
+       padding: 22px 43px 22px 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .contact_reg:hover{
+       color: white;
+       text-decoration: none;
+   }
+   .reg_and{
+    padding-bottom: 100px;
+   }
+   .video_size{
+       width: 100%;
+   }
+  
+/* ============= /main ============== */
+
+
+
+/* ============ footer ==================== */
+.footer__title{
+    color:white ;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 25px;
+}
+.footer_messange{
+    justify-content: space-evenly;
+}
+.footer{
+    background: #141414;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.footer__text{
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.footer__mail{
+    font-size: 15px;
+    color:#bcbcbc ;
+    font-family: 'Nunito-Regular';
+}
+.footer__mail:hover{
+    color: #bcbcbc;
+    text-decoration: none;
+}
+.messangr_text{
+    margin-right: 35px;
+    color: #bcbcbc;
+}
+
+/* =================/footer ==================== */

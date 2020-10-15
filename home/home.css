@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+   }
+   li{
+       list-style: none;
+   }
+   .nav{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-bottom: 18px;
+}
+.nav__list__link{
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    font-size: 12px;
+    color: #191919;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+}
+.nav__list__link:hover{
+    color:#1f8b48 ;
+    text-decoration: none;
+}
+.header{
+    background: white;
+}
+/* =========== main =================== */
+.main__designer{
+    padding-top: 100px;
+    padding-bottom: 97px;
+}
+.main_1{
+    background: #1f8b48;
+}
+.main__title{
+margin-bottom: 32px;
+color:#171717 ;
+font-size: 30px;
+font-family: 'Montserrat-Medium';
+}
+.main__text{
+    text-align: center;
+    color: #fefefe;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto-Medium';
+}
+.main__description{
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    }
+    .main__description__add{
+        font-size: 48px;
+        color: white;
+        font-family: 'Montserrat-Medium';
+        position: absolute;
+          width: 480px;
+          height: 300px;
+          left: 0;
+          top: -100%;
+          background: rgba(54,130,82,0.6);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: 2s;
+    }
+    .main__description:hover .main__description__add{
+        top: 0;
+        color: white;
+        text-decoration: none;
+    }
+    .img_size{
+        width: 100%;
+        height: 300px;
+        
+    }
+    .main_row_1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+/* ============= /main ======================= */
+
+/* ========= footer ============= */
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #141414;
+}
+.footer__text{
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.footer__mail{
+    font-size: 15px;
+    color:#bcbcbc ;
+    font-family: 'Nunito-Regular';
+}
+.footer__mail:hover{
+    color: #bcbcbc;
+    text-decoration: none;
+}
+.messangr_text{
+    margin-right: 35px;
+    color: #bcbcbc;
+}
+.footer__title{
+    color:white ;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 25px;
+}
+/* =====================/footer====================== */

@@ -1,0 +1,135 @@
+@media(max-width:1140px){
+    .main_img{
+width: 800px;
+    }
+    .row_1{
+        justify-content: start;
+    }
+    .main__text{
+        width: 280px;
+    }
+    .main__title {
+     width: 243px;
+        font-size: 31px;
+    }
+    
+}
+@media(max-width:1110px){
+    .row_2{
+       justify-content: space-evenly;
+    }
+    .footer_messange{
+        justify-content: center;
+    }
+    .main_img{
+    width: 600px;
+    max-width: max-content;
+    }
+    .main__text {
+        margin-bottom: 11px;
+    }
+    .main__title {
+        margin-bottom: 14px;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__list__link{
+        margin-top: 6px;
+    }
+    .row_1{
+      flex-direction: column;
+    }
+}
+@media(max-width:1020px){
+    .main_img{
+        max-width: max-content;
+    }
+    .row_2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__description{
+     flex-direction: column;
+     align-items: center;
+    }
+    .row_1{
+        align-items: center;
+    }
+    .main__title {
+        margin-bottom: 14px;
+        margin-top: 22px;
+    }
+    .main__text{
+        width: 380px;
+        text-align: center;
+    }
+    .main_info{
+justify-content: center;
+align-items: center;
+    }
+}
+@media(max-width:870px){
+    .main_img{
+        width: 450px;
+    }
+      .carusel__title_2 {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .carusel__title {
+        margin-left: 50px;
+    }
+}
+@media(max-width:655px){
+    .main_img{
+        width: 365px;
+    }
+    .main__text{
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .messangr_text {
+        margin-right: 19px;
+    }
+}
+@media(max-width:588px){
+    .main_img {
+        width: 280px;
+    }
+    .main__text {
+        width: 230px;
+    }
+}
+@media(max-width:538px){
+    .main_img {
+        width: 220px;
+        margin-right: 200px;
+    }
+    .main__title {
+        width: 179px;
+        font-size: 20px;
+    }
+    .main_info{
+        align-items: flex-start;
+    }
+    .nav{
+        align-items: flex-start;
+    }
+    .logo_1{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:438px){
+    .main_img{
+        margin-right: 100px;
+    }
+
+}
+@media(max-width:368px){
+    .main_img {
+        margin-right: 50px;
+    }
+}

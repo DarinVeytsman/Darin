@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+} 
+/* =========== header =========== */
+.nav{
+    padding-top: 15px;
+    background: white;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+.nav__list__link{
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    font-size: 12px;
+    color: #191919;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+}
+.nav__list__link:hover{
+    color:#1f8b48 ;
+    text-decoration: none;
+}
+/* ========/header ============== */
+/* ===================main================ */
+.main__description{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #f6f6f6;
+    padding-bottom: 94px;
+}
+.main__title{
+    color:#171717 ;
+    font-size:38px ;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 33px;
+}
+.main__text{
+    color:#787878 ;
+    font-size: 16px;
+    line-height:25px ;
+    font-family: 'Nunito-Regular';
+    margin-bottom: 35px;
+    width: 438px;
+
+}
+.main__client{
+    color:#787878 ;
+    font-size: 16px;
+    line-height:25px ;
+    font-family: 'Nunito-Regular';
+}
+.main__span{
+    color: #171717;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+}
+
+.fab{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.carusel__title{
+    
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+}
+.carusel__title_2{
+   
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+}
+.carousel-control-next{
+    color: black;
+}
+.carousel-control-prev-icon{
+    color: black;
+}
+.carousel-indicators .active {
+    
+    opacity: 1;
+   
+    background: #1f8b48;
+    
+}
+.main_contnet{
+    background: #1f8b48;
+}
+.carousel-indicators{
+    
+    background: #1f8b48;
+    display: flex;
+}
+
+.carousel-indicators li {
+  
+    width: 7px;
+    height: 6px;
+    color: white;
+    
+}
+.perv_carusel{
+    width: 7px;
+    height: 6px;
+    color: white;
+}
+.carusel-ind{
+    width: 16px;
+    height: 16px;
+}
+
+.carusel_add{
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+.controls-pages__indicators {
+    margin: 0;
+    width: min-content;
+    list-style: none;
+    width: 16px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    position: relative;
+}
+.carousel-indicators li{
+    border-top: none;
+    border-bottom: 6px solid transparent;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 20%;
+    color: black;
+    align-items: flex-end;
+    
+}
+
+
+.carousel-indicators{
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+}
+.carusel_start{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+   
+.carousel-indicators .active {
+    color: white;
+}
+.carusel-group{
+    display: flex none;
+    flex-wrap: wrap;
+    
+}
+.perv_carusel{
+    color:white;
+}
+.perv-size {
+    margin: 0;
+    width: min-content;
+    list-style: none;
+    width: 26px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    color: white;
+}
+
+.angel_size{
+    font-size: 22px !important;
+font-weight: bold !important;
+color: black;
+
+
+}
+
+
+/* .text__carusel{
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 150px;
+    
+
+}
+.main__carusel{
+    background: #007d2f;
+    padding-bottom: 60px;
+}
+.carusel_title{
+   color: white;
+   font-size: 16px;
+   font-family: 'Montserrat-Medium';
+   text-transform: uppercase;
+   text-align: center;
+   width: 645px;
+   margin-bottom: 170px;
+
+}
+.carousel-control-prev-icon{
+  background: none;
+}
+.carousel-control-next-icon{
+  background: none;
+}
+.carousel-indicators .active {
+ border-radius: 50%;
+ opacity: 1;
+ width: 12px;
+ height: 10px;
+}
+.carousel-indicators li {
+
+ width: 7px;
+ height: 8px;
+ border-radius: 50%;
+ ;
+} */
+/* ============= /main ============= */
+
+
+/* ======== footer===================== */
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #141414;
+}
+.footer__text{
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.footer__mail{
+    font-size: 15px;
+    color:#bcbcbc ;
+    font-family: 'Nunito-Regular';
+}
+.footer__mail:hover{
+    color: #bcbcbc;
+    text-decoration: none;
+}
+.messangr_text{
+    margin-right: 35px;
+    color: #bcbcbc;
+}
+.footer__title{
+    color:white ;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 25px;
+}
+
+/*  ===========/footer ============= */

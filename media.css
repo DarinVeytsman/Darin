@@ -1,0 +1,478 @@
+@media(max-width:1140px){
+    .header__contact {
+        color: white;
+        font-size: 12px;
+        font-family: 'Montserrat-Medium';
+        padding: 24px 57px 21px 41px;
+        background: #007d2f;
+        text-align: center;
+        margin-top: 42px;
+        text-transform: uppercase;
+    }
+
+    .video_size{
+        width: 780px;
+    }
+    .carusel_title{
+        width: 545px;
+    }
+    .main_pc_img {
+        width: 512px;
+        height: 420px;
+    }
+}
+@media(max-width:1138px){
+    .main_pc_img {
+        width: 500px;
+        height: 420px;
+    }
+    .video_size {
+        width: 770px;
+    }
+    .carusel_title {
+        color: white;
+        font-size: 16px;
+        font-family: 'Montserrat-Medium';
+        text-transform: uppercase;
+        text-align: center;
+        width: 526px;
+        margin-bottom: 127px;
+    }
+    
+}
+@media(max-width:1102px){
+    .nav_list{
+        padding-right: 40px;
+    }
+    .main_game__bonus{
+        padding-right: 50px;
+    }
+    .header__contact {
+        margin-top: 18px;
+    }
+    .header__title {
+        font-size: 30px;
+    }
+    .img_size{
+        max-width: max-content;
+    }
+    .card_description__add{
+        width: 280px;
+    }
+    .main_pc_img {
+        width: 430px;
+    }
+}
+
+
+
+@media(max-width:992px){
+    .main_pc_img {
+    width: 303px;
+    height: 342px;
+}
+.main__comment_title {
+    font-size: 30px;
+    margin-bottom:30px ;
+}
+.main__comment_text{
+    text-align: center;
+}
+.carusel_title{
+    width: 540px;
+}
+.header__text{
+    text-align: justify;
+}
+.bag_title {
+    font-size: 11px;
+}
+.gem_size{
+    width: 158px;
+}
+.control_info {
+    width: 730px;
+    margin-top: 30px;
+    border: none;
+}
+.contro_2{
+    width: 319px;
+}
+.control_info_2 {
+    width: 661px;
+}
+.video_size {
+    width: 600px;
+}
+.footer__tel{
+    margin-right: 64px;
+}
+.main_pc_img {
+    width: 278px;
+    height: 292px;
+}
+.img_size {
+    width: 100%;
+    height: 267px;
+}
+}
+@media(max-width:896px){
+    .progress__result{
+       flex-direction: column;
+       align-items: center;
+    }
+    .main_pc_img {
+        width: 50vw;
+        height: 392px;
+        margin-left: 145px;
+    }
+}
+@media(max-width:769px){
+    .control_info_2 {
+        width: 480px;
+    }
+    .main__bonus{
+        flex-direction: column;
+    }
+    .gem_size {
+        width: 119px;
+    }
+    .control_info {
+        width: 487px;
+        margin-top: 30px;
+        border: none;
+    }
+    .contro_2 {
+        width: 234px;
+    }
+
+    .reg__title{
+        text-align: center;
+    }
+    .header_logo{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .progress__result{
+        align-items: flex-start;
+
+    }
+    .main__bonus{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skill_title {
+        font-size: 26px;
+    }
+    .main_pc_img{
+        margin-left: 0px;
+        width: 65vw;
+    }
+    .jobs_word{
+        max-width: max-content;
+    }
+
+
+    .main__bonus{
+        flex-wrap: nowrap;
+    }
+    .fal{
+        font-size: 40px;
+    }
+    .bag_text{
+        margin-left: 0px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+        text-align: center;
+    }
+    .img_size{
+        height: 210px;
+    }
+    .card_description__add {
+        width: 191px;
+        height: 205px;
+    }
+    .video_size {
+        width: 524px;
+        height: 487px;
+    }
+    .main_video_title {
+        padding-top: 45px;
+    }
+    .video__description {
+        padding-bottom: 60px;
+    }
+  
+    .carusel_title{
+        
+            width: 487px;
+           margin-bottom: 73px;
+        }
+    
+    
+    .text__carusel{
+        margin-bottom: 32px;
+    margin-top: 49px;
+    }
+    .main_mointains {
+        padding-bottom: 31px;
+        padding-top: 47px;
+    }
+    .reg__title {
+        font-size: 24px;
+    }
+    .reg__text {
+        margin-bottom: 21px ;
+    }
+    .messangr_text {
+        margin-right: 9px;
+    }
+    .footer__tel {
+        margin-right: 120px;
+    }
+    .header__title {
+        font-size: 25px;
+    }
+    .img__comment{
+        width: 140xp;
+    }
+    .card_description{
+        max-width: max-content;
+    }
+    .nav_list {
+        flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+   .logo{
+       display: flex;
+   }
+}
+
+@media(max-width:768px){
+    .carusel_title {
+        width: 315px;
+        margin-bottom: 73px;
+    }
+}
+@media(max-width:655px){
+    .video_size {
+        width: 452px;
+        height: 487px;
+    }
+}
+
+@media(max-width:576px){
+    .row_media{
+        align-items: center;
+    }
+    .header__text {
+        margin-top: 3px;
+        text-align: center;
+    }
+    .header__title{
+        text-align: center;
+    }
+    .main_pc_img {
+        margin-left: 40px;
+    }
+    .bag_title{
+        text-align: center;
+
+    }
+    .bag_main{
+        padding-top: 40px;
+        padding-bottom: 34px;
+    }
+    .card_description__add {
+        width: 173px;
+        height: 195px;
+    }
+    .img_size {
+        height: 166px;
+    }
+    .far_2{
+        font-size: 30px;
+    }
+    .main_video_title {
+        font-size: 21px;
+    }
+    .video_size {
+        width: 400px;
+        height: 468px;
+    }
+    .main__bonus{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .gem_size {
+        width: 131px;
+    }
+    .fal_3{
+        width: 165px;
+    }
+    .card_description{
+        max-width: max-content;
+    }
+    .jobs_word{
+        max-width: max-content;
+        flex-wrap: wrap;
+    }
+    .fal_3{
+        font-size: 30px;
+    }
+    .bag_title {
+        font-size: 10px;
+    }
+    .bag_text {
+        font-size: 15px;
+    }
+    .form-control{
+        width:370px ;
+        margin-left: 15px;
+    }
+    .contro_2{
+        width: 180px;
+    }
+    .control_info_2 {
+        width: 380px;
+    }
+    .reg_and {
+        padding-bottom: 48px;
+    }
+    .fow_5{
+    flex-direction: column;
+    align-items: center;
+    }
+    .footer__tel{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .footer__tel{
+        margin: 0 auto;
+    }
+    .footer__mail{
+ text-align: center;
+ margin-bottom: 5px;
+    }
+    .progress {
+        width: 400px;
+    }
+}
+@media(max-width:451px){
+    .video_size{
+        width: 363px;
+    }
+    .footer__title {
+        font-size: 17px;
+    }
+    .footer__text {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer__tel{
+        width: 100px;
+    }
+}
+@media(max-width:434px){
+    .main_pc_img {
+        height: 280px;
+    }
+    .video_size {
+        width: 304px;
+    }
+    .progress {
+        width: 300px;
+    }
+    .card_description__add {
+        width: 130px;
+        height: 155px;
+}
+.instruction_title{
+    font-size: 17xp;
+    margin-top: 30px;
+}
+.main_video_text{
+    font-size: 13px;
+}
+.gem__text {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.gem_size {
+    width: 95px;
+}
+.gem_title {
+    font-size: 10px;
+}
+.moint_ing{
+width: 80px;
+}
+.img__comment{
+    width: 112px;
+}
+
+.main__bonus{
+    flex-wrap: wrap;
+}
+.text__carusel {
+    font-size: 13px;
+}
+.carusel_title {
+    width: 197px;
+    margin-bottom: 47px;
+}
+.contro_2 {
+    width: 145px;
+}
+.control_info_2 {
+    width: 300px;
+    height: 110px;
+}
+.control_info{
+    width: 290px;
+}
+.header__contact {
+    padding: 16px 36px 21px 41px;
+}
+.main__comment_title {
+    font-size: 23px;
+    margin-bottom: 11px;
+}
+.main__comment_text {
+    font-size: 12px;
+}
+.card_description{
+    max-width: max-content;
+}
+.moint_ing {
+    width: 70px;
+}
+.img_size {
+    height: 128px;
+    width: 97px;
+}
+.reg__text {
+    font-size: 13px;
+}
+.fal_3{
+    width: 110px;
+}
+.row_content{
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+@media(max-width:353px){
+    .video_size {
+     
+        width: 253px;
+    height: 300px;
+    }
+    .video__description {
+        padding-bottom: 0px;
+    }
+}

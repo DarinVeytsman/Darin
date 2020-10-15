@@ -1,0 +1,122 @@
+@media(max-width:1139px){
+    .main__description__add{
+        width: 283px;
+    }
+}
+@media(max-width:1105px){
+    .row_3{
+        display: flex;
+        justify-content: space-between none;
+        justify-content: center;
+        
+    }
+    .messangr_text {
+        margin-right: 15px;
+        color: #bcbcbc;
+    }
+}
+@media(max-width:1035px){
+    .row_3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_messange{
+        justify-content: center;
+    }
+    .footer__tel{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:985px){
+    .main__description__add {
+        width: 250px;
+    }
+    .main__title{
+        text-align: center;
+    }
+}
+@media(max-width:858px){
+    .main__description__add{
+        width: 215px;
+height: 265px;
+    }
+    .img_size {
+        width: 100%;
+        height: 268px;
+    }
+}
+@media(max-width:739px){
+    .footer{
+        padding-top: 58px;
+        padding-bottom: 40px;
+    }
+    .img_size {
+        width: 100%;
+        height: 230px;
+    }
+    .main__description__add{
+        height: 230px;
+
+    }
+
+}
+@media(max-width:697px){
+    .main__description__add{
+   width: 175px;
+   font-size: 40px;
+}  
+}
+@media(max-width:603px){
+    .img_size {
+        width: 100%;
+        height: 195px;
+    }
+    .main__description__add{
+        height: 195px;
+        width:155px;
+    
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .main__designer {
+        padding-top: 58px;
+        padding-bottom: 45px;
+    }
+}
+@media(max-width:501px){
+    .img_size {
+        width: 100%;
+        height: 150px;
+    }
+    .main__description__add{
+        height: 150px;
+        width: 124px;
+    }
+    }
+@media(max-width:405px){
+    .main__title {
+        font-size: 25px;
+        margin-bottom: 11px;
+
+    }
+    .img_size {
+        width: 100%;
+        height: 125px;
+    }
+    .main__description__add{
+        height: 125px;
+        width: 105px;
+        font-size: 35px;
+    }
+}
+@media(max-width:351px){
+    .img_size {
+        width: 100%;
+        height: 110px;
+    }
+    .main__description__add{
+    width: 93px;
+        height: 110px;
+    }
+}

@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+} 
+/* =========== header =========== */
+.nav{
+    padding-top: 15px;
+    background: white;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+.nav__list__link{
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    font-size: 12px;
+    color: #191919;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+}
+.nav__list__link:hover{
+    color:#1f8b48 ;
+    text-decoration: none;
+}
+
+/* ========== /header =========== */
+
+/* =========== main =============== */
+.main_bg{
+background:#323232 ;
+padding-bottom: 109px;
+padding-top: 100px;
+}
+.img_123{
+    width: 168px;
+}
+.main__title{
+    color: white;
+    font-size:61px ;
+    font-family: 'Montserrat-Medium';
+}
+.main__text{
+    color: white;
+    font-size:18px;
+    text-align: center;
+    font-family: 'Nunito-Regular';
+    line-height: 29px;
+}
+.bag_text{
+    font-size: 19px;
+    color: white;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 0px;
+   
+}
+.main__resultate{
+    background: #007d2f;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.bag_title{
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+ text-transform: uppercase;
+}
+.bag_main{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.fal{
+    color: white;
+    font-size: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.main__info{
+    margin-left: 110px;
+    
+}
+.main__description{
+    background: #f5f5f5;
+}
+.main_info_title{
+    font-size: 30px;
+    color: #171717;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 40px;
+}
+.main_info_text{
+    color:#787878;
+    font-size: 16px;
+    font-family: 'Nunito-Regular';
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.main__need_project{
+    padding-top: 103px;
+    padding-bottom: 100px;
+}
+.need__title{
+    color: #1d1d1d;
+    margin-bottom: 35px;
+    font-size:30px ;
+    font-family: 'Montserrat-Medium';
+}
+.need__text{
+    color: #787878;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Nunito-Regular';
+    margin-bottom: 38px;
+    text-align: center;
+}
+.need_link{
+ color: white;
+ background: #007d2f;
+ padding: 23px 54px 22px 43px;
+}
+.need_link:hover{
+    text-decoration: none;
+    color: white;
+}    
+
+/* ============= /main ==================== */
+
+
+
+
+/* ======== footer =============== */
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #141414;
+}
+.footer__text{
+    color: #bcbcbc;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+.footer__mail{
+    font-size: 15px;
+    color:#bcbcbc ;
+    font-family: 'Nunito-Regular';
+}
+.footer__mail:hover{
+    color: #bcbcbc;
+    text-decoration: none;
+}
+.messangr_text{
+    margin-right: 35px;
+    color: #bcbcbc;
+}
+.footer__title{
+    color:white ;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 25px;
+}
+
+/* ========== footer ================= */
