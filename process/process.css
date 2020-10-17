@@ -142,13 +142,25 @@ li{
     border-bottom: 6px solid transparent;
 }
 
-.carousel-control-next, .carousel-control-prev{
+ .carousel-control-prev{
     width: 20%;
     color: black;
-    align-items: flex-end;
+    justify-content: flex-end;
     
 }
-
+.carusel-control-next{
+    justify-content: flex-start;
+}
+.carousel-control-next {
+    right: 251px;
+        margin-bottom: 10px;
+        margin-right: -6px;
+    
+}
+.carousel-control-prev {
+    left: 16px;
+    margin-bottom: 10px;
+}
 
 .carousel-indicators{
     margin-left: 0;
@@ -195,50 +207,7 @@ color: black;
 }
 
 
-/* .text__carusel{
-    font-size: 16px;
-    font-family: 'Montserrat-Medium';
-    color: white;
-    line-height: 30px;
-    text-align: center;
-    margin-bottom: 90px;
-    margin-top: 150px;
-    
 
-}
-.main__carusel{
-    background: #007d2f;
-    padding-bottom: 60px;
-}
-.carusel_title{
-   color: white;
-   font-size: 16px;
-   font-family: 'Montserrat-Medium';
-   text-transform: uppercase;
-   text-align: center;
-   width: 645px;
-   margin-bottom: 170px;
-
-}
-.carousel-control-prev-icon{
-  background: none;
-}
-.carousel-control-next-icon{
-  background: none;
-}
-.carousel-indicators .active {
- border-radius: 50%;
- opacity: 1;
- width: 12px;
- height: 10px;
-}
-.carousel-indicators li {
-
- width: 7px;
- height: 8px;
- border-radius: 50%;
- ;
-} */
 /* ============= /main ============= */
 
 
